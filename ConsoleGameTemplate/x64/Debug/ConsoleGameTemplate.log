@@ -1,0 +1,23 @@
+﻿  ConsoleGameTemplate.cpp
+  ConsoleRenderer.cpp
+  GameManager.cpp
+  GEnd.cpp
+C:\Users\User\Desktop\김현영\ConsoleGameTemplate-main\ConsoleGameTemplate\GameManager.cpp(24,24): warning C4144: '!=': 관계식을 switch 식으로 사용했습니다.
+C:\Users\User\Desktop\김현영\ConsoleGameTemplate-main\ConsoleGameTemplate\GameManager.cpp(32,3): warning C4808: 경우 '2'은(는) 'bool' 유형의 스위치 조건에 대해 유효한 값이 아닙니다.
+C:\Users\User\Desktop\김현영\ConsoleGameTemplate-main\ConsoleGameTemplate\GameManager.cpp(30,3): warning C4808: 경우 '3'은(는) 'bool' 유형의 스위치 조건에 대해 유효한 값이 아닙니다.
+  GMenu.cpp
+  GPlay.cpp
+  코드를 생성하고 있습니다...
+GameManager.obj : error LNK2005: "char GManager::SceneCurrent" (?SceneCurrent@GManager@@3DA)이(가) ConsoleGameTemplate.obj에 이미 정의되어 있습니다.
+GameManager.obj : error LNK2005: "char GManager::SceneNext" (?SceneNext@GManager@@3DA)이(가) ConsoleGameTemplate.obj에 이미 정의되어 있습니다.
+GameManager.obj : error LNK2005: "short GManager::prevState" (?prevState@GManager@@3FA)이(가) ConsoleGameTemplate.obj에 이미 정의되어 있습니다.
+GEnd.obj : error LNK2005: "char GManager::SceneCurrent" (?SceneCurrent@GManager@@3DA)이(가) ConsoleGameTemplate.obj에 이미 정의되어 있습니다.
+GEnd.obj : error LNK2005: "char GManager::SceneNext" (?SceneNext@GManager@@3DA)이(가) ConsoleGameTemplate.obj에 이미 정의되어 있습니다.
+GEnd.obj : error LNK2005: "short GManager::prevState" (?prevState@GManager@@3FA)이(가) ConsoleGameTemplate.obj에 이미 정의되어 있습니다.
+GMenu.obj : error LNK2005: "char GManager::SceneCurrent" (?SceneCurrent@GManager@@3DA)이(가) ConsoleGameTemplate.obj에 이미 정의되어 있습니다.
+GMenu.obj : error LNK2005: "char GManager::SceneNext" (?SceneNext@GManager@@3DA)이(가) ConsoleGameTemplate.obj에 이미 정의되어 있습니다.
+GMenu.obj : error LNK2005: "short GManager::prevState" (?prevState@GManager@@3FA)이(가) ConsoleGameTemplate.obj에 이미 정의되어 있습니다.
+GPlay.obj : error LNK2005: "char GManager::SceneCurrent" (?SceneCurrent@GManager@@3DA)이(가) ConsoleGameTemplate.obj에 이미 정의되어 있습니다.
+GPlay.obj : error LNK2005: "char GManager::SceneNext" (?SceneNext@GManager@@3DA)이(가) ConsoleGameTemplate.obj에 이미 정의되어 있습니다.
+GPlay.obj : error LNK2005: "short GManager::prevState" (?prevState@GManager@@3FA)이(가) ConsoleGameTemplate.obj에 이미 정의되어 있습니다.
+C:\Users\User\Desktop\김현영\ConsoleGameTemplate-main\x64\Debug\ConsoleGameTemplate.exe : fatal error LNK1169: 여러 번 정의된 기호가 있습니다.
